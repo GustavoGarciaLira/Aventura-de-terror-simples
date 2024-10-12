@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>A Floresta do Silêncio</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Ao cair da noite, você se encontra à beira de uma floresta antiga e silenciosa. Dois caminhos se abrem diante de você. Qual escolher?</p>
+            <button class="btn-proximo" data-proximo="1">Caminho da esquerda - a estrada enevoada</button>
+            <button class="btn-proximo" data-proximo="2">Caminho da direita - a trilha em meio às árvores mortas</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>A névoa envolve seus pés enquanto você avança. Sons distantes de passos parecem seguir você. Você se depara com uma caverna sombria à sua esquerda.</p>
+            <button class="btn-proximo" data-proximo="3">Entrar na caverna</button>
+            <button class="btn-proximo" data-proximo="4">Continuar pela estrada</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Você se perde na trilha e acaba encontrando uma criatura das sombras que te captura. Sua jornada termina aqui.</p>
+            <button class="btn-recomecar">Recomeçar a aventura</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Dentro da caverna, você encontra um antigo tesouro guardado por uma sombra. Você deve fazer uma escolha:</p>
+            <button class="btn-proximo" data-proximo="5">Tentar pegar o tesouro</button>
+            <button class="btn-proximo" data-proximo="6">Sair da caverna rapidamente</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Continuando pela estrada, você percebe que os sons estão desaparecendo. A floresta começa a clarear e você encontra uma saída segura.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a saída</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você tenta pegar o tesouro, mas a sombra se agarra a você, levando você à escuridão. Sua jornada termina aqui.</p>
+            <button class="btn-recomecar">Recomeçar a aventura</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você sai da caverna rapidamente e consegue escapar da sombra. A floresta parece mais calma agora. Você vê uma luz à distância.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir em direção à luz</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você finalmente sai da floresta e se sente aliviado. O caminho se abre para um lindo campo iluminado pelo sol. Você venceu!</p>
+            <button class="btn-recomecar">Recomeçar a aventura</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Ao se aproximar da luz, você descobre que é um portal que te leva a um mundo seguro, longe da floresta. Você encontrou a saída!</p>
+            <button class="btn-recomecar">Recomeçar a aventura</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
